@@ -48,9 +48,5 @@ Ensure you have Python installed. You can download it from [python.org](https://
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request with enhancements.
 
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
----
 **Enjoy solving Sudoku! 🧠🔥**
 
