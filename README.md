@@ -1,8 +1,3 @@
-Absolutely! Here's your **Tic-Tac-Toe (Terminal Game)** `README.md` rewritten in the exact format you requested:
-
----
-
-```markdown
 # Tic-Tac-Toe Game (Python – Terminal Based)
 
 ## 🧩 About the Project
@@ -53,9 +48,4 @@ Make sure you have Python installed. You can download it from [python.org](https
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, make improvements, and submit a pull request.
 
-**Have fun and enjoy the game! 🎉**
-```
 
----
-
-Let me know if you want to add a badge, a demo GIF, or convert this into a one-player AI version for your GitHub!
