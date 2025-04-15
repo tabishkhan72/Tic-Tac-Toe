@@ -1,52 +1,61 @@
-# Sudoku Game (Python & Tkinter)
+Absolutely! Here's your **Tic-Tac-Toe (Terminal Game)** `README.md` rewritten in the exact format you requested:
+
+---
+
+```markdown
+# Tic-Tac-Toe Game (Python – Terminal Based)
 
 ## 🧩 About the Project
-This is an **interactive Sudoku game** built using **Python and Tkinter**. It allows users to **play Sudoku**, **get hints**, **check their solution**, and **auto-solve the puzzle** using a backtracking algorithm.
+This is a **2-player Tic-Tac-Toe game** built in **Python** that runs entirely in the **terminal**. It offers a simple and clean interface for two users to play alternately with win/draw detection built-in.
 
 ## 🎮 Features
-✅ **Graphical User Interface (GUI)** with Tkinter  
-✅ **Random Sudoku Puzzle Generation**  
-✅ **User Input Support** (Allows manual entry)  
-✅ **Hint Feature** (Fills one correct cell)  
-✅ **Solution Checking** (Verifies user solution)  
-✅ **Sudoku Solver** (Solves puzzle on request)  
-✅ **New Game Option** to generate a fresh puzzle  
+✅ **Turn-based Two Player Mode** (Player X vs Player O)  
+✅ **Clean Terminal Board Display**  
+✅ **Win Detection** (Rows, Columns, Diagonals)  
+✅ **Draw Detection** (Board filled without winner)  
+✅ **Input Validation** (No overwriting occupied cells)  
+✅ **No External Libraries** – Just pure Python  
 
 ## 🚀 Getting Started
+
 ### **Prerequisites**
-Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
+Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
 
 ### **Installation**
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/sudoku-game.git
+   git clone https://github.com/yourusername/tic-tac-toe-terminal.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd sudoku-game
+   cd tic-tac-toe-terminal
    ```
-3. Run the Sudoku game:
+3. Run the game:
    ```sh
-   python sudoku_game.py
+   python tic_tac_toe.py
    ```
 
-## 🎨 How to Play
-1. Start the game by running the script.
-2. A Sudoku puzzle will be displayed.
-3. Fill in the missing numbers manually.
-4. Use the buttons:
-   - **Check**: Verifies if your solution is correct.
-   - **Hint**: Fills one correct number.
-   - **Solve**: Automatically solves the puzzle.
-   - **New Game**: Generates a new puzzle.
+## 🎮 How to Play
+1. Run the script to start the game.
+2. Players X and O take turns entering a number (1–9) representing the board cell:
+   ```
+    1 | 2 | 3
+   -----------
+    4 | 5 | 6
+   -----------
+    7 | 8 | 9
+   ```
+3. The game ends when a player wins or the board is full (draw).
 
 ## 🛠 Technologies Used
-- **Python** 🐍
-- **Tkinter** (GUI framework)
-- **Backtracking Algorithm** (for solving Sudoku)
+- **Python** 🐍 (Standard Library only)
 
 ## 🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request with enhancements.
+Contributions are welcome! Feel free to fork the repo, make improvements, and submit a pull request.
 
-**Enjoy solving Sudoku! 🧠🔥**
+**Have fun and enjoy the game! 🎉**
+```
 
+---
+
+Let me know if you want to add a badge, a demo GIF, or convert this into a one-player AI version for your GitHub!
